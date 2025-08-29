@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Learning Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <!-- Navbar -->
+    <header class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+        <h1 class="text-2xl font-bold">AI Learning</h1>
+        <nav class="hidden md:flex space-x-6">
+          <a href="#" class="hover:text-indigo-200">Home</a>
+          <a href="#courses" class="hover:text-indigo-200">Courses</a>
+          <a href="#about" class="hover:text-indigo-200">About</a>
+          <a href="#contact" class="hover:text-indigo-200">Contact</a>
+        </nav>
+        <!-- Mobile menu button -->
+        <button class="md:hidden focus:outline-none focus:ring-2 focus:ring-white rounded">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-20">
+      <div class="max-w-4xl mx-auto text-center px-4">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-6">Master AI & Machine Learning</h2>
+        <p class="text-lg md:text-xl mb-8">
+          Join our curated courses designed by experts to boost your skills in AI, ML, and Data Science.
+        </p>
+        <a href="#courses"
+           class="inline-block bg-white text-indigo-700 font-semibold px-6 py-3 rounded-xl shadow hover:bg-gray-100 transition duration-300">
+          Explore Courses
+        </a>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h3 class="text-3xl font-bold text-center mb-12">Popular Courses</h3>
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card -->
+          <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+            <h4 class="text-xl font-semibold mb-3">Introduction to AI</h4>
+            <p class="text-gray-600 mb-4">Learn the fundamentals of AI, its applications, and career opportunities.</p>
+            <a href="course-ai.html"
+               class="text-indigo-600 font-medium hover:underline">View Details →</a>
+          </div>
+          <!-- Card -->
+          <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+            <h4 class="text-xl font-semibold mb-3">Machine Learning Basics</h4>
+            <p class="text-gray-600 mb-4">Understand supervised & unsupervised learning, regression, and classification.</p>
+            <a href="course-ml.html"
+               class="text-indigo-600 font-medium hover:underline">View Details →</a>
+          </div>
+          <!-- Card -->
+          <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+            <h4 class="text-xl font-semibold mb-3">Deep Learning</h4>
+            <p class="text-gray-600 mb-4">Dive into neural networks, CNNs, RNNs, and real-world projects.</p>
+            <a href="course-dl.html"
+               class="text-indigo-600 font-medium hover:underline">View Details →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+      <div class="max-w-4xl mx-auto text-center px-4">
+        <h3 class="text-3xl font-bold mb-6">About Us</h3>
+        <p class="text-gray-600 text-lg">
+          We are passionate educators and AI practitioners dedicated to making learning accessible and practical.
+          Our mission is to empower students and professionals with real-world AI knowledge.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+      <div class="max-w-4xl mx-auto text-center px-4">
+        <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
+        <p class="text-gray-600 mb-6">Have questions? Reach out and we’ll be happy to help you.</p>
+        <a href="mailto:info@ailearning.com"
+           class="inline-block bg-indigo-600 text-white font-semibold px-6 py-3 rounded-xl shadow hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 transition">
+          Contact Us
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-6">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <p>© 2025 AI Learning. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
